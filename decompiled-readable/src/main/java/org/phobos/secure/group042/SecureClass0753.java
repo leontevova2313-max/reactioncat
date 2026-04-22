@@ -1,0 +1,141 @@
+/*
+ * Decompiled with CFR.
+ */
+package org.phobos.secure.group042;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import net.minecraft.class_2338;
+import org.apache.commons.lang3.mutable.MutableObject;
+import org.phobos.secure.group001.SecureClass0003;
+import org.phobos.secure.group003.SecureClass0033;
+import org.phobos.secure.group004.ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ;
+import org.phobos.secure.group007.zIxo9S3ZoIQdxcYi4kPWONMdfzJwRtq8;
+import org.phobos.secure.group012.pqQIh9hcJks9m8LHmhEtFn9XtB3XhtC6;
+import org.phobos.secure.group014.kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7;
+import org.phobos.secure.group015.DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF;
+import org.phobos.secure.group015.SecureClass0242;
+import org.phobos.secure.group024.rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz;
+import org.phobos.secure.group026.SecureClass0449;
+import org.phobos.secure.group034.HepdhnOQLY4Pthmuj75wb1CQP5uhLy8d;
+import org.phobos.secure.group034.SecureClass0603;
+import org.phobos.secure.group038.SecureClass0666;
+import org.phobos.secure.group047.SecureClass0840;
+import org.phobos.secure.group055.SecureClass1004;
+import org.phobos.secure.group058.JQzdNyMRhYWwZrOz09vGrFdND5pNnPqm;
+import org.phobos.secure.group060.SecureClass1096;
+import org.phobos.secure.group060.psqf1QElVtE74rwDTPszL5h010xftKTx;
+import org.phobos.secure.group021.GUwYQtLobN0K6mDyyCfqrBOsrxw02NQq;
+import org.phobos.secure.group022.GLCl7SumMPJSOhrYJMLo3xzsROu4db7M;
+import org.phobos.secure.group023._3yOi7ZdUyaSxFv97X9uewJHAyG2rS9A3;
+import org.phobos.secure.group028.SecureClass0486;
+import org.phobos.secure.group031.FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo;
+import org.phobos.secure.group031.SecureClass0547;
+import org.phobos.secure.group042.GiHssktN2iwc15M24RIbjCA17FK9Xgst;
+import org.phobos.secure.group043._6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx;
+import org.phobos.secure.group050.SecureInterface0126;
+import org.phobos.secure.group052.SecureClass0940;
+import org.phobos.secure.group053.SecureClass0962;
+import org.phobos.secure.group054.SecureInterface0130;
+import org.phobos.secure.group056.SecureClass1022;
+
+public class SecureClass0753
+extends SecureClass0486 {
+    public final /* synthetic */ SecureClass0603<Boolean> explode;
+    public final /* synthetic */ SecureClass0603<Boolean> prediction;
+    public final /* synthetic */ SecureClass0603<Long> timeout;
+    public final /* synthetic */ SecureClass0603<Boolean> own;
+    public final /* synthetic */ SecureClass0603<ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ> field001;
+    public final /* synthetic */ SecureClass0603<zIxo9S3ZoIQdxcYi4kPWONMdfzJwRtq8<Long>> dynamicRange;
+    public final /* synthetic */ SecureClass0603<Boolean> dynamic;
+    public final /* synthetic */ SecureClass0603<Boolean> auto;
+    public final /* synthetic */ SecureClass0603<Integer> ticks;
+    public final /* synthetic */ SecureClass0603<Integer> poll;
+    public final /* synthetic */ SecureClass0603<Boolean> field002;
+    public final /* synthetic */ SecureClass0603<Double> fail;
+    public final /* synthetic */ SecureClass0603<Double> minDamage;
+    public final /* synthetic */ SecureClass0603<Double> maxSelfDamage;
+    public final /* synthetic */ SecureClass0603<rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz> item;
+    public final /* synthetic */ SecureClass0603<FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo> mode;
+    public final /* synthetic */ SecureClass0603<GiHssktN2iwc15M24RIbjCA17FK9Xgst> field003;
+    public final /* synthetic */ SecureClass0603<_6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx> lanience;
+    public final /* synthetic */ SecureClass0603<Boolean> suicide;
+    public final /* synthetic */ SecureClass0603<Boolean> cleanup;
+    public /* synthetic */ boolean field004;
+    public /* synthetic */ boolean field005;
+    public /* synthetic */ boolean field006;
+    public final /* synthetic */ MutableObject<GLCl7SumMPJSOhrYJMLo3xzsROu4db7M> field007;
+    public final /* synthetic */ SecureClass0603<SecureClass0666> place;
+    public final /* synthetic */ SecureClass1096 field008;
+    public /* synthetic */ float field009;
+    public final /* synthetic */ kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7 field010;
+    public /* synthetic */ boolean field011;
+    public final /* synthetic */ Map<class_2338, Long> field012;
+    public final /* synthetic */ SecureClass0603<Double> doubleChance;
+    public /* synthetic */ class_2338 field013;
+    public final /* synthetic */ SecureClass0603<Boolean> onlyOwn;
+    public /* synthetic */ boolean field014;
+    public final /* synthetic */ SecureClass0603<Boolean> extra;
+    public final /* synthetic */ SecureClass0603<SecureClass0666> field015;
+    public final /* synthetic */ kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7 field016;
+    public final /* synthetic */ MutableObject<Float> field017;
+    public final /* synthetic */ SecureClass0449<GLCl7SumMPJSOhrYJMLo3xzsROu4db7M> field018;
+    public /* synthetic */ int field019;
+
+    public /* synthetic */ SecureClass0753(SecureClass0242 ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb) {
+        super(ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb, "AutoAnchor", "Places and explodes anchors", SecureClass1004.kK5IjbPNwxtu8lnDS8tj81KqTHxby8IZ, 5);
+        this.mode = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0033<FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo>("Mode", FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage));
+        this.minDamage = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0962<Double>("MinDamage", 6.0, 0.1, 36.0));
+        this.maxSelfDamage = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0962<Double>("MaxSelfDamage", 12.0, 0.1, 36.0));
+        this.suicide = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Suicide", false).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Ignore self damage"));
+        this.prediction = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Prediction").HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Prediction (Simulation)"));
+        this.ticks = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0962<Integer>("Ticks", 1, 1, 4));
+        this.cleanup = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Cleanup", false).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Removes placed anchors regardless if they deal damage or not"));
+        this.own = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Own", true).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Only explodes anchors placed by you"));
+        this.timeout = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0840("Timeout", 450L, 0L, 5000L, true).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Place timeout"));
+        this.fail = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0962<Double>("Fail", 25.5, Double.valueOf(0.0), Double.valueOf(100.0), "%").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Fail chance"));
+        this.explode = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Explode", false).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Explode anchors"));
+        this.field001 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0033<ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ>("ExplodeItem", ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ.Anchor).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Item to use when exploding"));
+        this.field002 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Scan", true).cfr_renamed_110(SecureInterface0130.L5OT4zhF3VzBMfrxVndwnztuw665eS3C(SecureInterface0130.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit), SecureInterface0130.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant), DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF.OR)).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Only explodes if an enemy is nearby"));
+        this.field003 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0033<GiHssktN2iwc15M24RIbjCA17FK9Xgst>("Block", GiHssktN2iwc15M24RIbjCA17FK9Xgst.None).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Places glowstone between you and the anchor"));
+        this.item = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0033<rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz>("Item", rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz.Glowstone));
+        this.auto = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Auto").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Switches to an anchor when interacting a block with a totem"));
+        this.lanience = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0033<_6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx>("Lanience", _6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx.Update).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, (_6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx)((Object)FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant)));
+        this.poll = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0962<Integer>("Poll", 0, 0, 5).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Blocks keyboard inputs"));
+        this.dynamic = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Dynamic").HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Makes the delay slightly less obvious"));
+        this.dynamicRange = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0547("DynamicRange", SecureInterface0126.wMAZSEjvEoULCU29BTHtikjbktQ9hg7X(25L, 100L), 0L, 100L));
+        this.extra = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("Extra").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Sometimes charges twice to seem more legit"));
+        this.place = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0940("Place").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Place + Break key"));
+        this.field015 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0940("Double").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Place + Break + Place + Break key"));
+        this.doubleChance = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass0962<Double>("DoubleChance", 70.0, 10.0, 100.0).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).cfr_renamed_110(() -> !this.field015.getValue().isEmpty()));
+        this.onlyOwn = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new SecureClass1022("OnlyOwn").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Only accept anchors placed by you"));
+        this.field018 = new SecureClass0449<GLCl7SumMPJSOhrYJMLo3xzsROu4db7M>(7, GLCl7SumMPJSOhrYJMLo3xzsROu4db7M::new, new GLCl7SumMPJSOhrYJMLo3xzsROu4db7M[0]);
+        this.field008 = new SecureClass1096();
+        this.field017 = new MutableObject((Object)Float.valueOf(0.0f));
+        this.field007 = new MutableObject(null);
+        this.field009 = 0.0f;
+        this.field004 = false;
+        this.field010 = new kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7();
+        this.field016 = new kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7();
+        this.field012 = new ConcurrentHashMap<class_2338, Long>();
+        this.wQmStBqRMLz8129caFX4oSmE9yGtCMQV().forEach(eNZ2mktMsJd0He3YGH5G28E87ZEE9iST -> eNZ2mktMsJd0He3YGH5G28E87ZEE9iST.CHtaYu9Grw4Vg2Qs8gwqVn9dNVUIDSjg(SecureInterface0130.L5OT4zhF3VzBMfrxVndwnztuw665eS3C(SecureInterface0130.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage), () -> this.mode.tQgAGKXb4P8to9BfEtwhNA3h5QWR8RVV(FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant) && this.field003.tQgAGKXb4P8to9BfEtwhNA3h5QWR8RVV(GiHssktN2iwc15M24RIbjCA17FK9Xgst.Fast), DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF.OR)));
+        this.s8W6ArJ4beaFf5ihEN4agE6EQGLC2Fsi.UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage);
+        SecureInterface0130 field020 = SecureInterface0130.L5OT4zhF3VzBMfrxVndwnztuw665eS3C(SecureInterface0130.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit), SecureInterface0130.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant), DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF.OR);
+        this.cfr_renamed_89("Calculation", this.minDamage, this.maxSelfDamage, this.suicide).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage);
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.prediction, this.ticks).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage);
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.own, this.timeout).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit);
+        this.cfr_renamed_89("Blocking", this.field003, this.item).CHtaYu9Grw4Vg2Qs8gwqVn9dNVUIDSjg(SecureInterface0130.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant));
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.dynamic, this.dynamicRange).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.mode, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant);
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.explode, this.field001).CHtaYu9Grw4Vg2Qs8gwqVn9dNVUIDSjg(field020);
+        this.cfr_renamed_69(new pqQIh9hcJks9m8LHmhEtFn9XtB3XhtC6(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new HepdhnOQLY4Pthmuj75wb1CQP5uhLy8d(this, 80));
+        this.cfr_renamed_69(new psqf1QElVtE74rwDTPszL5h010xftKTx(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new GUwYQtLobN0K6mDyyCfqrBOsrxw02NQq(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new _3yOi7ZdUyaSxFv97X9uewJHAyG2rS9A3(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new JQzdNyMRhYWwZrOz09vGrFdND5pNnPqm(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        SecureClass0003.sJOlTeSDRzmurL2RNlES7yuuv5w6UlMP(this, () -> {
+            this.field004 = false;
+        });
+    }
+}
+

@@ -1,0 +1,25 @@
+/*
+ * Decompiled with CFR.
+ */
+package org.phobos.mixin.net.interfaces;
+
+import net.minecraft.class_2664;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Mutable;
+import org.spongepowered.asm.mixin.gen.Accessor;
+
+@Mixin(value={class_2664.class})
+public interface IExplosionS2CPacket {
+    @Mutable
+    @Accessor(value="playerVelocityX")
+    public void setVelocityX(float var1);
+
+    @Mutable
+    @Accessor(value="playerVelocityZ")
+    public void setVelocityZ(float var1);
+
+    @Mutable
+    @Accessor(value="playerVelocityY")
+    public void setVelocityY(float var1);
+}
+

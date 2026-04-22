@@ -1,0 +1,141 @@
+/*
+ * Decompiled with CFR.
+ */
+package org.phobos.secure.oqUC6PDfpdLuWstoEUDlKxT3Xk6NpgUX;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import net.minecraft.class_2338;
+import org.apache.commons.lang3.mutable.MutableObject;
+import org.phobos.secure.0dlmuoMYLMuYPO0vDrDlwmMFyqqO6D1f.DPFgeOavN2hN6ugmTRIVNJvGBGQLlZCJ;
+import org.phobos.secure.1QTSqdFu1qt4b1WvDl15MoAj2vMj5tlJ.aq7vACiJshO0oihLo44ipm04OXbkCSfD;
+import org.phobos.secure.233YlkA2dSoXPmZOG4uyJFB5W5MKs63U.ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ;
+import org.phobos.secure.4ankqQTX08KHaG3hRKAriJZJvFiF7YAw.zIxo9S3ZoIQdxcYi4kPWONMdfzJwRtq8;
+import org.phobos.secure.7KgfbqPz0TZEvgx4F8x37flDNykxuB6z.pqQIh9hcJks9m8LHmhEtFn9XtB3XhtC6;
+import org.phobos.secure.9JA6nKEdvkMaYgGxbP5o8ET2jaNDNhYE.kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7;
+import org.phobos.secure.9JNKNxVhzi3xjfXWc24rkJ9ItfENFoYC.DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF;
+import org.phobos.secure.9JNKNxVhzi3xjfXWc24rkJ9ItfENFoYC.EhHzOWjVOo2ijjkm566XV6MAnIeIpIwb;
+import org.phobos.secure.DvHN4PkxykAoANi4roFzZmZTSvw4GCMi.rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz;
+import org.phobos.secure.FD1M8xx1CUcwZMnOiOG8cxXvj3uzSrUW.BsUiJAei4Ih1qGo8qJ5Bu8bpBCWAAv8E;
+import org.phobos.secure.KTCd4jNwkUmzY5o86On7O3FWe7L0rhHm.HepdhnOQLY4Pthmuj75wb1CQP5uhLy8d;
+import org.phobos.secure.KTCd4jNwkUmzY5o86On7O3FWe7L0rhHm.g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs;
+import org.phobos.secure.MpluYqz5kopiubvq0FxGSsRakZ18ildf.PxzXHuJ7BLd7xIZGMd2PhaUAkgF0gdfB;
+import org.phobos.secure.QXHXtRyloXeqPw0DdQTO29pDMZZhfbir.BzEGciJasWwl3Z7aXjwah07y3X75ITzh;
+import org.phobos.secure.U5tRY8D8bLVbxLWfBvdbYKpfmRZaBK7l.jAjUdhSJZoq13PSzPZw48f1KQAflzpMr;
+import org.phobos.secure.WImki23QfccO83WDzvL29AaNQYxbrmkQ.JQzdNyMRhYWwZrOz09vGrFdND5pNnPqm;
+import org.phobos.secure.XgtuoRE7Nn2SaMa6CCKtbXRVenWLiNmf.oty55slyoASCo5SoIp8kVrhE5SrTHJO3;
+import org.phobos.secure.XgtuoRE7Nn2SaMa6CCKtbXRVenWLiNmf.psqf1QElVtE74rwDTPszL5h010xftKTx;
+import org.phobos.secure.cxD3bbysrD3GZeMPRiFOph5AKymUJItE.GUwYQtLobN0K6mDyyCfqrBOsrxw02NQq;
+import org.phobos.secure.d1e1dzetKUO8NeW3EP3jTje523wHVwd5.GLCl7SumMPJSOhrYJMLo3xzsROu4db7M;
+import org.phobos.secure.dNotqec7vuODLFQFFQOYliDfOW7R0ZYp._3yOi7ZdUyaSxFv97X9uewJHAyG2rS9A3;
+import org.phobos.secure.fTk4RlLkMp5c4dhA0Mjh9YGk4LiwJiv4.fnAEd8sLcx8bv421iIcNLRTjJBqcV5rG;
+import org.phobos.secure.jBamnY2bCSDeqHNITqpKmz02DojJcc8l.FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo;
+import org.phobos.secure.jBamnY2bCSDeqHNITqpKmz02DojJcc8l.jcEhnLTLXlJgpNKXiG0Ea4JaENr1LxOy;
+import org.phobos.secure.oqUC6PDfpdLuWstoEUDlKxT3Xk6NpgUX.GiHssktN2iwc15M24RIbjCA17FK9Xgst;
+import org.phobos.secure.p1PHpeWxsaHJXtCrqkXUI0cbzHYz3ZaJ._6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx;
+import org.phobos.secure.s6BjRjmuQbcwr3ZfDYcfyZoaATqNdajb.rzGMw7r3bu7zSEsH16Isu6ArD825txRz;
+import org.phobos.secure.t0qWw7zeufscC4VvH6JqtmEJzabrhuCQ._4JanTyvXbRIaQ2Cdg4ChNURlGESQn73u;
+import org.phobos.secure.u5hZOKvw8vDHyIwwJUCY5gyszH0trlnW.pYhDd3f8yVrOkgyttMO1P7mTdejXSfA0;
+import org.phobos.secure.u5iaET0r1hQ6KD5VP0DVrfpJMZ8tdPeI._2xW2jptptD3pPLCWTSwHO2chn7OZmoOK;
+import org.phobos.secure.ulFKkKf3PI2HUx83QjvCny5RVdQ1JbCt.kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre;
+
+public class oEbLTTuQla5ejeIBHXwroygysxbKUKXB
+extends fnAEd8sLcx8bv421iIcNLRTjJBqcV5rG {
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> uNhDcqJ44qMH50MlHDzjIMGU3Es5Se7h;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> nTw7KgEQqdVHRK6G9L5EwombfxyRM6cy;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Long> Mva6C3eRmQbN68FkbNhS3nCXDGkZIKhg;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> IaCwQky07HDc5hUef4nNbJReAc1iRaba;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ> cfr_renamed_886;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<zIxo9S3ZoIQdxcYi4kPWONMdfzJwRtq8<Long>> T4otRMethH4BAMhvkMt7kQkGKcCMtzpW;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> gZni94zF0AXX0tMpEb9XBW04fsZElyc3;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> ELXwzg3rJClneF1xH5nuv1qg74xfZn2s;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Integer> w8kvCuHLclnIwnYz9n33FbkvjKBxyjfP;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Integer> jSYUvrHgJ4ljOnBa08H0UTtgC8U7WM74;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> cfr_renamed_887;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Double> woebQ5ZMkBBlVxL2gz8QrUNdk3170mOP;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Double> ICOn5vf3vSV13InC6LOqoo7iX9UHNb3I;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Double> tisv2Es77cTOGtV8APTfYlI2Sma8uCAO;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz> wRlW1N0w1shEB68813UzD2FJNaCwpgIl;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo> bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<GiHssktN2iwc15M24RIbjCA17FK9Xgst> cfr_renamed_610;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<_6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx> SWtNyXehIXN9jGrYuWTzmC9BPljpJPWN;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> gMtSNiZhjaZkoWoQRNBWoYGcCFb0Bu6N;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> hhfdlbfpcqSvATtVqwPB7Hy4Fnz4msbo;
+    public /* synthetic */ boolean KKhaGiIR26JFiQqmGQturXKxGubgRvqs;
+    public /* synthetic */ boolean sMMSygiT4TtBOz3N5X2G1I6zRiiA08LD;
+    public /* synthetic */ boolean eQx6U0paH7OHPxjpymoJBdAi4lPDJx6I;
+    public final /* synthetic */ MutableObject<GLCl7SumMPJSOhrYJMLo3xzsROu4db7M> cfr_renamed_416;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<PxzXHuJ7BLd7xIZGMd2PhaUAkgF0gdfB> nmu2uLrmn7dL9HjN7QwJSoz6hCjH6D0Z;
+    public final /* synthetic */ oty55slyoASCo5SoIp8kVrhE5SrTHJO3 jWbo469DxXaTQOowTMRepUvWFfKcttgc;
+    public /* synthetic */ float cfr_renamed_415;
+    public final /* synthetic */ kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7 GlgOJqkWU5pT2gOIV8BRwM3kx2FYBWD1;
+    public /* synthetic */ boolean cfr_renamed_152;
+    public final /* synthetic */ Map<class_2338, Long> oZsSxWTVdMOE7QFBWsn5MhciLbPTV1sY;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Double> FVPqiOlxPbwuklCLNusQrCWfEEwQA78Z;
+    public /* synthetic */ class_2338 CQJVe0C0PcG1e4Pd4XcfAw9ZHG6jM1bG;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> ElTKkWsVmASbd5JBt4jyvQYkadMagGtF;
+    public /* synthetic */ boolean i7HMM247qBj5uSSkVEDLBmJIQrB4Sa7r;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<Boolean> gp3NKk6abtsvahws2vnnpDcxXCnBRy5S;
+    public final /* synthetic */ g77G8vOcsOCkBD4vxs1B9Tu4ZA82vvYs<PxzXHuJ7BLd7xIZGMd2PhaUAkgF0gdfB> cfr_renamed_888;
+    public final /* synthetic */ kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7 cfr_renamed_889;
+    public final /* synthetic */ MutableObject<Float> OiyaGmlvPowQd7f4qYdFubrBCGmyf4TM;
+    public final /* synthetic */ BsUiJAei4Ih1qGo8qJ5Bu8bpBCWAAv8E<GLCl7SumMPJSOhrYJMLo3xzsROu4db7M> XTEPNPPVgA0FAL9cEIBGOFOPMWK392UI;
+    public /* synthetic */ int ZcFIjNTu4nBkKzyWncUhf0W3b2LhBhvJ;
+
+    public /* synthetic */ oEbLTTuQla5ejeIBHXwroygysxbKUKXB(EhHzOWjVOo2ijjkm566XV6MAnIeIpIwb ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb) {
+        super(ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb, "AutoAnchor", "Places and explodes anchors", jAjUdhSJZoq13PSzPZw48f1KQAflzpMr.kK5IjbPNwxtu8lnDS8tj81KqTHxby8IZ, 5);
+        this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new aq7vACiJshO0oihLo44ipm04OXbkCSfD<FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo>("Mode", FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage));
+        this.ICOn5vf3vSV13InC6LOqoo7iX9UHNb3I = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new pYhDd3f8yVrOkgyttMO1P7mTdejXSfA0<Double>("MinDamage", 6.0, 0.1, 36.0));
+        this.tisv2Es77cTOGtV8APTfYlI2Sma8uCAO = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new pYhDd3f8yVrOkgyttMO1P7mTdejXSfA0<Double>("MaxSelfDamage", 12.0, 0.1, 36.0));
+        this.gMtSNiZhjaZkoWoQRNBWoYGcCFb0Bu6N = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Suicide", false).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Ignore self damage"));
+        this.nTw7KgEQqdVHRK6G9L5EwombfxyRM6cy = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Prediction").HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Prediction (Simulation)"));
+        this.w8kvCuHLclnIwnYz9n33FbkvjKBxyjfP = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new pYhDd3f8yVrOkgyttMO1P7mTdejXSfA0<Integer>("Ticks", 1, 1, 4));
+        this.hhfdlbfpcqSvATtVqwPB7Hy4Fnz4msbo = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Cleanup", false).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Removes placed anchors regardless if they deal damage or not"));
+        this.IaCwQky07HDc5hUef4nNbJReAc1iRaba = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Own", true).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Only explodes anchors placed by you"));
+        this.Mva6C3eRmQbN68FkbNhS3nCXDGkZIKhg = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new BzEGciJasWwl3Z7aXjwah07y3X75ITzh("Timeout", 450L, 0L, 5000L, true).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Place timeout"));
+        this.woebQ5ZMkBBlVxL2gz8QrUNdk3170mOP = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new pYhDd3f8yVrOkgyttMO1P7mTdejXSfA0<Double>("Fail", 25.5, Double.valueOf(0.0), Double.valueOf(100.0), "%").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Fail chance"));
+        this.uNhDcqJ44qMH50MlHDzjIMGU3Es5Se7h = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Explode", false).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Explode anchors"));
+        this.cfr_renamed_886 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new aq7vACiJshO0oihLo44ipm04OXbkCSfD<ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ>("ExplodeItem", ZiSfE4PhfdTwYHMFM22FWkheUAXGeCPJ.Anchor).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Item to use when exploding"));
+        this.cfr_renamed_887 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Scan", true).cfr_renamed_110(_2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.L5OT4zhF3VzBMfrxVndwnztuw665eS3C(_2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit), _2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant), DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF.OR)).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Only explodes if an enemy is nearby"));
+        this.cfr_renamed_610 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new aq7vACiJshO0oihLo44ipm04OXbkCSfD<GiHssktN2iwc15M24RIbjCA17FK9Xgst>("Block", GiHssktN2iwc15M24RIbjCA17FK9Xgst.None).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Places glowstone between you and the anchor"));
+        this.wRlW1N0w1shEB68813UzD2FJNaCwpgIl = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new aq7vACiJshO0oihLo44ipm04OXbkCSfD<rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz>("Item", rqERPiaIDrQ1SaQgPHx0YJZteFUboPvz.Glowstone));
+        this.ELXwzg3rJClneF1xH5nuv1qg74xfZn2s = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Auto").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Switches to an anchor when interacting a block with a totem"));
+        this.SWtNyXehIXN9jGrYuWTzmC9BPljpJPWN = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new aq7vACiJshO0oihLo44ipm04OXbkCSfD<_6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx>("Lanience", _6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx.Update).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, (_6RswUIsdeMsD3oYHuNVQYi0Lja3fLsMx)((Object)FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant)));
+        this.jSYUvrHgJ4ljOnBa08H0UTtgC8U7WM74 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new pYhDd3f8yVrOkgyttMO1P7mTdejXSfA0<Integer>("Poll", 0, 0, 5).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Blocks keyboard inputs"));
+        this.gZni94zF0AXX0tMpEb9XBW04fsZElyc3 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Dynamic").HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Makes the delay slightly less obvious"));
+        this.T4otRMethH4BAMhvkMt7kQkGKcCMtzpW = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new jcEhnLTLXlJgpNKXiG0Ea4JaENr1LxOy("DynamicRange", rzGMw7r3bu7zSEsH16Isu6ArD825txRz.wMAZSEjvEoULCU29BTHtikjbktQ9hg7X(25L, 100L), 0L, 100L));
+        this.gp3NKk6abtsvahws2vnnpDcxXCnBRy5S = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("Extra").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Sometimes charges twice to seem more legit"));
+        this.nmu2uLrmn7dL9HjN7QwJSoz6hCjH6D0Z = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new _4JanTyvXbRIaQ2Cdg4ChNURlGESQn73u("Place").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Place + Break key"));
+        this.cfr_renamed_888 = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new _4JanTyvXbRIaQ2Cdg4ChNURlGESQn73u("Double").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Place + Break + Place + Break key"));
+        this.FVPqiOlxPbwuklCLNusQrCWfEEwQA78Z = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new pYhDd3f8yVrOkgyttMO1P7mTdejXSfA0<Double>("DoubleChance", 70.0, 10.0, 100.0).UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).cfr_renamed_110(() -> !this.cfr_renamed_888.getValue().isEmpty()));
+        this.ElTKkWsVmASbd5JBt4jyvQYkadMagGtF = this.yoCh2Tzjuuh19oKP0On1HXH6GaurB4et(new kXkRqFr8JYolDfdY9ZHctL8DnfGR4bre("OnlyOwn").UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant).HcOyVcABtRvav3iRe1JO6o3I6XyxtI97("Only accept anchors placed by you"));
+        this.XTEPNPPVgA0FAL9cEIBGOFOPMWK392UI = new BsUiJAei4Ih1qGo8qJ5Bu8bpBCWAAv8E<GLCl7SumMPJSOhrYJMLo3xzsROu4db7M>(7, GLCl7SumMPJSOhrYJMLo3xzsROu4db7M::new, new GLCl7SumMPJSOhrYJMLo3xzsROu4db7M[0]);
+        this.jWbo469DxXaTQOowTMRepUvWFfKcttgc = new oty55slyoASCo5SoIp8kVrhE5SrTHJO3();
+        this.OiyaGmlvPowQd7f4qYdFubrBCGmyf4TM = new MutableObject((Object)Float.valueOf(0.0f));
+        this.cfr_renamed_416 = new MutableObject(null);
+        this.cfr_renamed_415 = 0.0f;
+        this.KKhaGiIR26JFiQqmGQturXKxGubgRvqs = false;
+        this.GlgOJqkWU5pT2gOIV8BRwM3kx2FYBWD1 = new kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7();
+        this.cfr_renamed_889 = new kH5TeNqhlxvR6CnWEu6oJeLFCgvNXYB7();
+        this.oZsSxWTVdMOE7QFBWsn5MhciLbPTV1sY = new ConcurrentHashMap<class_2338, Long>();
+        this.wQmStBqRMLz8129caFX4oSmE9yGtCMQV().forEach(eNZ2mktMsJd0He3YGH5G28E87ZEE9iST -> eNZ2mktMsJd0He3YGH5G28E87ZEE9iST.CHtaYu9Grw4Vg2Qs8gwqVn9dNVUIDSjg(_2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.L5OT4zhF3VzBMfrxVndwnztuw665eS3C(_2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage), () -> this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS.tQgAGKXb4P8to9BfEtwhNA3h5QWR8RVV(FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant) && this.cfr_renamed_610.tQgAGKXb4P8to9BfEtwhNA3h5QWR8RVV(GiHssktN2iwc15M24RIbjCA17FK9Xgst.Fast), DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF.OR)));
+        this.s8W6ArJ4beaFf5ihEN4agE6EQGLC2Fsi.UajfDomVvYUeiLofg3W5x7BNyJV8hzHJ(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage);
+        _2xW2jptptD3pPLCWTSwHO2chn7OZmoOK RPRs6B8FFFsgualwsqVwRv3deAaTISU0 = _2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.L5OT4zhF3VzBMfrxVndwnztuw665eS3C(_2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit), _2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant), DtGCPXOhrxs1nACERNnZnFIZsZB1z7IF.OR);
+        this.cfr_renamed_89("Calculation", this.ICOn5vf3vSV13InC6LOqoo7iX9UHNb3I, this.tisv2Es77cTOGtV8APTfYlI2Sma8uCAO, this.gMtSNiZhjaZkoWoQRNBWoYGcCFb0Bu6N).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage);
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.nTw7KgEQqdVHRK6G9L5EwombfxyRM6cy, this.w8kvCuHLclnIwnYz9n33FbkvjKBxyjfP).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Rage);
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.IaCwQky07HDc5hUef4nNbJReAc1iRaba, this.Mva6C3eRmQbN68FkbNhS3nCXDGkZIKhg).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Legit);
+        this.cfr_renamed_89("Blocking", this.cfr_renamed_610, this.wRlW1N0w1shEB68813UzD2FJNaCwpgIl).CHtaYu9Grw4Vg2Qs8gwqVn9dNVUIDSjg(_2xW2jptptD3pPLCWTSwHO2chn7OZmoOK.KPZEp86ul0Tw9CboqV56M3rzaxkWcp6a(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant));
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.gZni94zF0AXX0tMpEb9XBW04fsZElyc3, this.T4otRMethH4BAMhvkMt7kQkGKcCMtzpW).Ig0Mx5sfqQ4v3m9L8ObzmZVsLC4LPnc4(this.bOJ2PsXHl0uStO6JWlA9boxGRvG2p7FS, FkIbRYH6rUEmpGgEjFR6riN2GxdtSzgo.Blatant);
+        this.ZOs4tT9mSWk3IpkDN4DipiX8gK8e6maz(this.uNhDcqJ44qMH50MlHDzjIMGU3Es5Se7h, this.cfr_renamed_886).CHtaYu9Grw4Vg2Qs8gwqVn9dNVUIDSjg(RPRs6B8FFFsgualwsqVwRv3deAaTISU0);
+        this.cfr_renamed_69(new pqQIh9hcJks9m8LHmhEtFn9XtB3XhtC6(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new HepdhnOQLY4Pthmuj75wb1CQP5uhLy8d(this, 80));
+        this.cfr_renamed_69(new psqf1QElVtE74rwDTPszL5h010xftKTx(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new GUwYQtLobN0K6mDyyCfqrBOsrxw02NQq(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new _3yOi7ZdUyaSxFv97X9uewJHAyG2rS9A3(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        this.cfr_renamed_69(new JQzdNyMRhYWwZrOz09vGrFdND5pNnPqm(this, ehHzOWjVOo2ijjkm566XV6MAnIeIpIwb));
+        DPFgeOavN2hN6ugmTRIVNJvGBGQLlZCJ.sJOlTeSDRzmurL2RNlES7yuuv5w6UlMP(this, () -> {
+            this.KKhaGiIR26JFiQqmGQturXKxGubgRvqs = false;
+        });
+    }
+}
+

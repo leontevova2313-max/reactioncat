@@ -1,0 +1,12 @@
+/*
+ * Decompiled with CFR.
+ */
+package io.netty.handler.codec.marshalling;
+
+import io.netty.channel.ChannelHandlerContext;
+import org.jboss.marshalling.Unmarshaller;
+
+public interface UnmarshallerProvider {
+    public Unmarshaller getUnmarshaller(ChannelHandlerContext var1) throws Exception;
+}
+

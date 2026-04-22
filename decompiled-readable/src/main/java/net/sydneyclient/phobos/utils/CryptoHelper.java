@@ -1,0 +1,33 @@
+/*
+ * Decompiled with CFR.
+ */
+package net.sydneyclient.phobos.utils;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class CryptoHelper {
+    public static String encrypt(String input) {
+        try {
+            Class<?> clazz = Class.forName("org.phobos.secure.group062.SecureClass1139");
+            Method method = clazz.getDeclaredMethod("OwAa4zUSNtyeOruH8S4ytFApua1Cnyvr", String.class);
+            method.setAccessible(true);
+            return (String)method.invoke(null, input);
+        }
+        catch (ClassNotFoundException | IllegalAccessException | NoSuchMethodException | InvocationTargetException ignored) {
+            return "";
+        }
+    }
+
+    public static String decrypt(String input) {
+        try {
+            Class<?> clazz = Class.forName("org.phobos.secure.group062.SecureClass1139");
+            Method decode = clazz.getDeclaredMethod("32IAWUQxlpZEGPQw7CmpythoD9I1Lqsn", String.class);
+            decode.setAccessible(true);
+            return (String)decode.invoke(null, input);
+        }
+        catch (ClassNotFoundException | IllegalAccessException | NoSuchMethodException | InvocationTargetException ignored) {
+            return "";
+        }
+    }
+}

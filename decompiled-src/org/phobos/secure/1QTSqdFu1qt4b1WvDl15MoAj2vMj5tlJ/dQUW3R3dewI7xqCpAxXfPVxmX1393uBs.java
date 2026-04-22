@@ -1,0 +1,31 @@
+/*
+ * Decompiled with CFR.
+ */
+package org.phobos.secure.1QTSqdFu1qt4b1WvDl15MoAj2vMj5tlJ;
+
+import net.minecraft.class_290;
+import net.minecraft.class_2960;
+import org.phobos.secure.9JA6nKEdvkMaYgGxbP5o8ET2jaNDNhYE.tAj0aN46lv9doZV8hE3XFzXDuhIGWxVs;
+import org.phobos.secure.AuMPaDyo4HD2Mdz6ox1zOjYGNwTJpKkh.Jz8JDGXQJO12hU50KlcwOHnrHFpPY065;
+import org.phobos.secure.ZNQOE3cldQWPqAt3fBqZzirrkDYRRcqe.OIINiwzc6VwhmJ4YuaKMURZXHXNpIqAj;
+import org.phobos.secure.cxD3bbysrD3GZeMPRiFOph5AKymUJItE.DsViYs5HwxHOFTq95xKGZqL0j1OIl7JN;
+import org.phobos.secure.pc6HIQuJAclXcc4JCpbef8Fre45f1Kdg.U7dcoDM2DJhQy6Ddt3Ghn2B10Q4RAkAQ;
+import org.phobos.secure.u5iaET0r1hQ6KD5VP0DVrfpJMZ8tdPeI.s4XZdZJWqtIHXzepkZyqthA5ydjzHW2T;
+
+public class dQUW3R3dewI7xqCpAxXfPVxmX1393uBs
+implements s4XZdZJWqtIHXzepkZyqthA5ydjzHW2T {
+    public /* synthetic */ Jz8JDGXQJO12hU50KlcwOHnrHFpPY065 cfr_renamed_103;
+    public /* synthetic */ U7dcoDM2DJhQy6Ddt3Ghn2B10Q4RAkAQ HAYyc6wdhEsIdrCTjhHe5Mx5x4PS0mry;
+    public static final /* synthetic */ tAj0aN46lv9doZV8hE3XFzXDuhIGWxVs XPheFZM3gVGBMqIo9v5iuaFSxhDb85xs;
+    public /* synthetic */ DsViYs5HwxHOFTq95xKGZqL0j1OIl7JN WePE4XWnQ9vbwk1tVgADnbprxkVCn147;
+    public /* synthetic */ Jz8JDGXQJO12hU50KlcwOHnrHFpPY065 SwVEsYMHOtoXHWgPD8FHyrlbSbyaWO2z;
+
+    public /* synthetic */ dQUW3R3dewI7xqCpAxXfPVxmX1393uBs() {
+        this.qDlL6QnoSD0iZsXGh0HaI7AI1Qli16Ld();
+    }
+
+    static {
+        XPheFZM3gVGBMqIo9v5iuaFSxhDb85xs = OIINiwzc6VwhmJ4YuaKMURZXHXNpIqAj.PtJPKA0EcuQD6qGGWW8Wiw1qVYm5uv9q().nWDX9QMqTPf9l4yJo8pBPrKheCLtnQB4(class_2960.method_60655((String)"phoboslite", (String)"hud"), class_290.field_1592);
+    }
+}
+
